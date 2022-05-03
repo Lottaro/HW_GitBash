@@ -1,7 +1,7 @@
 TXT
  1. Создать внешний репозиторий c названием TXT - создаю на github.com репозиторий TXT
  2. Клонировать репозиторий TXT на локальный компьютер git clone https://github.com/Lottaro/TXT.git
- 3. Внутри локального TXT создать файл “new.txt” - touch new.txt
+ 3. Внутри локального TXT создать файл “new.txt” - cd TXT переходим в локальный репозиторий TXT, touch new.txt
  4. Добавить файл под гит - git add new.txt проверяем добавление файла командой git status
  5. Закоммитить файл - git commit -m "создал файл new.txt"
  6. Отправить файл на внешний GitHub репозиторий - git push
